@@ -20,7 +20,6 @@
     footer{
         background-color: #1E1E26;
         display: flex;
-        flex-direction: column;
         justify-content: space-around;
         color: white;
     }
@@ -109,6 +108,7 @@
         justify-content: space-around;
         flex-wrap: wrap;
         background-color: #FAFAFA;
+        padding-top: 4%;
     }
     .contenedor{
         display: flex;
@@ -158,7 +158,7 @@
     
     }
     #titulo-seccion{
-        padding-bottom: 25%;
+        padding-bottom: 10%;
         align-self: center;
         color: #242E53;
         font-size: 1.5rem;
@@ -175,7 +175,7 @@
         height: 70px;
         position: absolute;
         bottom:93%;
-        left: 35%;
+        left: 40%;
     }
     #info-jugadores{
         background-color: #FAFAFA;
@@ -203,27 +203,26 @@
     }
     
     .fifth-part-main{
-        background-color: #3CDDF3;
+        background-color: #8B48BF;
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+        width: 100vw;
+
     }
     #info-quinta-parte{
         color: white;
-        align-self: center;
+        justify-content: center;
         text-align: center;
         padding: 10% 20% 10% 20%;
         font-size: 1.3rem;
     }
     #button-go-for-it{
-        width: 30%;
-        padding-top: 2%;
-        padding-bottom:2% ;
-        background-color: #8B48BF;
+        width: 15%;
+        padding-top: 1.5%;
+        padding-bottom:1.5% ;
+        background-color: white;
         border-radius:22%;
         text-align: center;
         align-self: center;
-        margin-bottom: 3%;
     }
     
     /*footer*/
@@ -240,7 +239,7 @@
         padding: 5%;
         display: flex;
         flex-direction: column;
-        order: 3;
+        order: 1;
         justify-content: space-around;
     }
     #segunda-caja-foot{
@@ -252,9 +251,12 @@
     #tercera-caja-foot{
         padding: 5%;
         display: flex;
-        order: 1;
+        order: 3;
         justify-content: space-around;
     }    
+    button:focus{
+        background-color: #AE7FD2;
+    }
 }
 
 @media(max-width:480px) {
