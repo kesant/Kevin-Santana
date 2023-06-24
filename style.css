@@ -1,0 +1,488 @@
+@media (min-width:480px) {
+    *{
+        margin: 0;
+        font-family: 'Be Vietnam Pro', sans-serif;
+    
+    
+    }
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+    
+    }
+    footer{
+        background-color: #1E1E26;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: white;
+    }
+    
+    /*header*/
+    li{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #menu-header{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    #boton-header{
+        justify-self: flex-end;
+        width: 15%;
+        background-color: #8B48BF;
+        border-radius:22%;
+        text-align: center;
+        align-self: center;
+        margin: 2%;
+    }
+    
+    
+    /*MAIN*/    
+    #imagen-main{
+        flex-grow: 0.6;
+    }
+    
+    
+    .first-part-main{
+        display: flex;
+        justify-content: space-around;
+        width: 90vw;
+        margin: 10%;
+    }
+    #info-first-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-grow: 0.4;
+    }
+    #titulo-primer-main{
+        text-align: right;
+        font-weight: 700;
+        font-size: 2.5rem;
+        align-self: flex-end;
+        color: #757B92;
+    }
+    #texto-derecha{
+        text-align: right;
+    }
+    #boton-contacto{
+        width: 30%;
+        height: 10%;
+        background-color: #8B48BF;
+        border-radius:22%;
+        text-align: center;
+        align-self: flex-end;
+        margin: 2%;
+    }
+    
+    
+    
+    .second-part-main{
+        background-color: #8B48BF;
+        color: white;
+    }
+    #info-second-part{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    #texto-izquierda{
+        width: 80%;
+        text-align: left;
+        margin: 5%;
+    }
+    
+    
+    .third-part-main{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #FAFAFA;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 45vw;
+    
+    }
+    #numeracion-contenedores{
+        background-color: #8B48BF;
+        text-align: center;
+        width: 40px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        border-radius: 35%;
+        position: absolute;
+    
+    }
+    #titulo-contenedor{
+        text-align: center;
+        width: 95%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        align-self: flex-end;
+        color: #323851;
+    }
+    #contenedor-differences{
+        margin: 20px 0px 20px 0px;
+        color: #CECDD1;
+    
+    }
+    
+    
+    .forth-part-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .contenedores-info-jugadores{
+        display: flex;
+
+        justify-content: space-around;
+        margin-bottom: 4%;
+        margin-top: 5%;
+    
+    }
+    #titulo-seccion{
+        padding-bottom: 25%;
+        align-self: center;
+        color: #242E53;
+        font-size: 1.5rem;
+    }
+    .jugadores{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+    
+    }
+    #imagen-jugadores{
+        width: 71px;
+        height: 70px;
+        position: absolute;
+        bottom:93%;
+        left: 35%;
+    }
+    #info-jugadores{
+        background-color: #FAFAFA;
+    }
+    
+    #nombre-info-jugadores{
+        text-align: center;
+        padding-top: 10%;
+    }
+    
+    #texto-info-jugades{
+        color: #CECDD1;
+        text-align: center;
+        margin: 10% 10% 10% 10%;
+    }
+    
+    #button-more{
+        width: 20%;
+        padding-top: 2%;
+        padding-bottom:2% ;
+        background-color: #8B48BF;
+        border-radius:22%;
+        text-align: center;
+        align-self: center;
+    }
+    
+    .fifth-part-main{
+        background-color: #3CDDF3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #info-quinta-parte{
+        color: white;
+        align-self: center;
+        text-align: center;
+        padding: 10% 20% 10% 20%;
+        font-size: 1.3rem;
+    }
+    #button-go-for-it{
+        width: 30%;
+        padding-top: 2%;
+        padding-bottom:2% ;
+        background-color: #8B48BF;
+        border-radius:22%;
+        text-align: center;
+        align-self: center;
+        margin-bottom: 3%;
+    }
+    
+    /*footer*/
+    #iconos{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    #logo{
+        align-self: center;
+        padding: 5%;
+    }
+    #primera-caja-foot{
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        order: 3;
+        justify-content: space-around;
+    }
+    #segunda-caja-foot{
+        padding: 5%;
+        display: flex;
+        order: 2;
+        justify-content: space-around;
+    }
+    #tercera-caja-foot{
+        padding: 5%;
+        display: flex;
+        order: 1;
+        justify-content: space-around;
+    }    
+}
+
+@media(max-width:480px) {
+    
+
+/*header*/
+    #menu-header{
+        display: none;
+        justify-content:space-between;
+        
+    }
+    #boton-header{
+        display: none;
+    }
+
+
+    /*MAIN*/    
+    #imagen-main{
+        width: 80%;
+        height: 50%;
+    }
+
+
+    .first-part-main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 90vw;
+    }
+    #info-first-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #titulo-primer-main{
+        text-align: right;
+        font-weight: 700;
+        font-size: 2.5rem;
+        align-self: flex-end;
+        color: #757B92;
+    }
+    #texto-derecha{
+        text-align: right;
+    }
+    #boton-contacto{
+        width: 30%;
+        height: 25%;
+        background-color: #8B48BF;
+        border-radius:22%;
+        text-align: center;
+        align-self: flex-end;
+        margin: 2%;
+    }
+
+
+    
+    .second-part-main{
+        background-color: #3CDDF3;
+        color: white;
+    }
+    #info-second-part{
+        width: 70%;
+        background-color: #3CDDF3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin: 15px;
+    }
+
+    #texto-izquierda{
+        width: 80%;
+        text-align: left;
+        margin: 10%;
+    }
+
+
+    .third-part-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 25px 0px 25px 25px;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    #numeracion-contenedores{
+        background-color: #8B48BF;
+        text-align: center;
+        width: 40px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        border-radius: 35%;
+        position: absolute;
+        top: 9%;
+        left: 1%;
+
+    }
+    #titulo-contenedor{
+        background-color: #DCC8EC;
+        text-align: center;
+        width: 95%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        align-self: flex-end;
+        color: #323851;
+    }
+    #contenedor-differences{
+        margin: 20px 0px 20px 0px;
+        color: #CECDD1;
+
+    }
+
+
+    .forth-part-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 5% 10% 5% 10%;
+    }
+    .contenedores-info-jugadores{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+    #titulo-seccion{
+        padding-bottom: 25%;
+        align-self: center;
+        color: #242E53;
+        font-size: 1.5rem;
+    }
+    .jugadores{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+
+    }
+    #imagen-jugadores{
+        width: 71px;
+        height: 70px;
+        position: absolute;
+        bottom:90%;
+        left: 40%;
+    }
+    #info-jugadores{
+        background-color: #FAFAFA;
+    }
+
+    #nombre-info-jugadores{
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    #texto-info-jugades{
+        color: #CECDD1;
+        text-align: center;
+        margin: 10% 10% 10% 10%;
+    }
+
+    #ocultar-info{
+        display: none;
+    }
+    #button-more{
+        width: 30%;
+        padding-top: 2%;
+        padding-bottom:2% ;
+        background-color: #8B48BF;
+        border-radius:22%;
+        text-align: center;
+        align-self: center;
+    }
+
+    .fifth-part-main{
+        background-color: #3CDDF3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #info-quinta-parte{
+        color: white;
+        align-self: center;
+        text-align: center;
+        padding: 10% 20% 10% 20%;
+        font-size: 1.3rem;
+    }
+    #button-go-for-it{
+        width: 30%;
+        padding-top: 2%;
+        padding-bottom:2% ;
+        background-color: #8B48BF;
+        border-radius:22%;
+        text-align: center;
+        align-self: center;
+        margin-bottom: 3%;
+    }
+
+    /*footer*/
+    #iconos{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    #logo{
+        align-self: center;
+        padding: 5%;
+    }
+    #primera-caja-foot{
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        order: 3;
+        justify-content: space-around;
+    }
+    #segunda-caja-foot{
+        padding: 5%;
+        display: flex;
+        order: 2;
+        justify-content: space-around;
+    }
+    #tercera-caja-foot{
+        padding: 5%;
+        display: flex;
+        order: 1;
+        justify-content: space-around;
+    }
+}
